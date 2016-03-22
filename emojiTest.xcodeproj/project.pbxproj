@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1572B6F838836B4F09FA71F4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8878D67971BEE490FF8ECEB /* libPods.a */; };
+		18B47D561C7DFFE800B13084 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B47D551C7DFFE800B13084 /* main.m */; };
+		18B47D591C7DFFE800B13084 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B47D581C7DFFE800B13084 /* AppDelegate.m */; };
+		18B47D5C1C7DFFE800B13084 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B47D5B1C7DFFE800B13084 /* ViewController.m */; };
+		18B47D5F1C7DFFE800B13084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B47D5D1C7DFFE800B13084 /* Main.storyboard */; };
+		18B47D611C7DFFE800B13084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B47D601C7DFFE800B13084 /* Assets.xcassets */; };
+		18B47D6F1C7DFFE800B13084 /* emojiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B47D6E1C7DFFE800B13084 /* emojiTestTests.m */; };
+		18B47D7A1C7DFFE800B13084 /* emojiTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B47D791C7DFFE800B13084 /* emojiTestUITests.m */; };
+		18EAF1251C7E02FA00EA8F7E /* expression1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1201C7E02FA00EA8F7E /* expression1.gif */; };
+		18EAF1261C7E02FA00EA8F7E /* expression2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1211C7E02FA00EA8F7E /* expression2.gif */; };
+		18EAF1271C7E02FA00EA8F7E /* expression3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1221C7E02FA00EA8F7E /* expression3.gif */; };
+		18EAF1281C7E02FA00EA8F7E /* expression4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1231C7E02FA00EA8F7E /* expression4.gif */; };
+		18EAF1291C7E02FA00EA8F7E /* expression5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1241C7E02FA00EA8F7E /* expression5.gif */; };
+		18EAF12D1C7E82D600EA8F7E /* GifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAF12C1C7E82D600EA8F7E /* GifView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18EAF1391C7F208D00EA8F7E /* expression6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1321C7F208D00EA8F7E /* expression6.gif */; };
+		18EAF13A1C7F208D00EA8F7E /* expression13.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1331C7F208D00EA8F7E /* expression13.gif */; };
+		18EAF13B1C7F208D00EA8F7E /* expression19.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1341C7F208D00EA8F7E /* expression19.gif */; };
+		18EAF13C1C7F208D00EA8F7E /* expression27.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1351C7F208D00EA8F7E /* expression27.gif */; };
+		18EAF13D1C7F208D00EA8F7E /* expression33.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1361C7F208D00EA8F7E /* expression33.gif */; };
+		18EAF13E1C7F208D00EA8F7E /* expression65.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1371C7F208D00EA8F7E /* expression65.gif */; };
+		18EAF13F1C7F208D00EA8F7E /* expression75.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EAF1381C7F208D00EA8F7E /* expression75.gif */; };
+		18EAF1421C7F257F00EA8F7E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAF1411C7F257F00EA8F7E /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B47D6B1C7DFFE800B13084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B47D491C7DFFE800B13084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B47D501C7DFFE800B13084;
+			remoteInfo = emojiTest;
+		};
+		18B47D761C7DFFE800B13084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B47D491C7DFFE800B13084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B47D501C7DFFE800B13084;
+			remoteInfo = emojiTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B47D511C7DFFE800B13084 /* emojiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emojiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B47D551C7DFFE800B13084 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B47D571C7DFFE800B13084 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B47D581C7DFFE800B13084 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B47D5A1C7DFFE800B13084 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18B47D5B1C7DFFE800B13084 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18B47D5E1C7DFFE800B13084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B47D601C7DFFE800B13084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B47D651C7DFFE800B13084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B47D6A1C7DFFE800B13084 /* emojiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B47D6E1C7DFFE800B13084 /* emojiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = emojiTestTests.m; sourceTree = "<group>"; };
+		18B47D701C7DFFE800B13084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B47D751C7DFFE800B13084 /* emojiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B47D791C7DFFE800B13084 /* emojiTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = emojiTestUITests.m; sourceTree = "<group>"; };
+		18B47D7B1C7DFFE800B13084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EAF1201C7E02FA00EA8F7E /* expression1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression1.gif; sourceTree = "<group>"; };
+		18EAF1211C7E02FA00EA8F7E /* expression2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression2.gif; sourceTree = "<group>"; };
+		18EAF1221C7E02FA00EA8F7E /* expression3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression3.gif; sourceTree = "<group>"; };
+		18EAF1231C7E02FA00EA8F7E /* expression4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression4.gif; sourceTree = "<group>"; };
+		18EAF1241C7E02FA00EA8F7E /* expression5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression5.gif; sourceTree = "<group>"; };
+		18EAF12B1C7E82D600EA8F7E /* GifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifView.h; sourceTree = "<group>"; };
+		18EAF12C1C7E82D600EA8F7E /* GifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifView.m; sourceTree = "<group>"; };
+		18EAF1301C7F183A00EA8F7E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		18EAF1321C7F208D00EA8F7E /* expression6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression6.gif; sourceTree = "<group>"; };
+		18EAF1331C7F208D00EA8F7E /* expression13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression13.gif; sourceTree = "<group>"; };
+		18EAF1341C7F208D00EA8F7E /* expression19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression19.gif; sourceTree = "<group>"; };
+		18EAF1351C7F208D00EA8F7E /* expression27.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression27.gif; sourceTree = "<group>"; };
+		18EAF1361C7F208D00EA8F7E /* expression33.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression33.gif; sourceTree = "<group>"; };
+		18EAF1371C7F208D00EA8F7E /* expression65.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression65.gif; sourceTree = "<group>"; };
+		18EAF1381C7F208D00EA8F7E /* expression75.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = expression75.gif; sourceTree = "<group>"; };
+		18EAF1401C7F257F00EA8F7E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		18EAF1411C7F257F00EA8F7E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		1EFCFCEA9F80163DD681505B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A8BC58F33F01A1F3B2666892 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F8878D67971BEE490FF8ECEB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B47D4E1C7DFFE800B13084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1572B6F838836B4F09FA71F4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B47D671C7DFFE800B13084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B47D721C7DFFE800B13084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005FA7A9B23EDFA27EDAF1EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8BC58F33F01A1F3B2666892 /* Pods.debug.xcconfig */,
+				1EFCFCEA9F80163DD681505B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18B47D481C7DFFE800B13084 = {
+			isa = PBXGroup;
+			children = (
+				18B47D531C7DFFE800B13084 /* emojiTest */,
+				18B47D6D1C7DFFE800B13084 /* emojiTestTests */,
+				18B47D781C7DFFE800B13084 /* emojiTestUITests */,
+				18B47D521C7DFFE800B13084 /* Products */,
+				005FA7A9B23EDFA27EDAF1EC /* Pods */,
+				7A825A1DAB89B2E405EE463B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18B47D521C7DFFE800B13084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B47D511C7DFFE800B13084 /* emojiTest.app */,
+				18B47D6A1C7DFFE800B13084 /* emojiTestTests.xctest */,
+				18B47D751C7DFFE800B13084 /* emojiTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B47D531C7DFFE800B13084 /* emojiTest */ = {
+			isa = PBXGroup;
+			children = (
+				18EAF12A1C7E82AF00EA8F7E /* Libs */,
+				18B47D571C7DFFE800B13084 /* AppDelegate.h */,
+				18B47D581C7DFFE800B13084 /* AppDelegate.m */,
+				18B47D5A1C7DFFE800B13084 /* ViewController.h */,
+				18B47D5B1C7DFFE800B13084 /* ViewController.m */,
+				18B47D5D1C7DFFE800B13084 /* Main.storyboard */,
+				18B47D601C7DFFE800B13084 /* Assets.xcassets */,
+				18B47D651C7DFFE800B13084 /* Info.plist */,
+				18B47D541C7DFFE800B13084 /* Supporting Files */,
+			);
+			path = emojiTest;
+			sourceTree = "<group>";
+		};
+		18B47D541C7DFFE800B13084 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EAF1321C7F208D00EA8F7E /* expression6.gif */,
+				18EAF1331C7F208D00EA8F7E /* expression13.gif */,
+				18EAF1341C7F208D00EA8F7E /* expression19.gif */,
+				18EAF1351C7F208D00EA8F7E /* expression27.gif */,
+				18EAF1361C7F208D00EA8F7E /* expression33.gif */,
+				18EAF1371C7F208D00EA8F7E /* expression65.gif */,
+				18EAF1381C7F208D00EA8F7E /* expression75.gif */,
+				18EAF1201C7E02FA00EA8F7E /* expression1.gif */,
+				18EAF1211C7E02FA00EA8F7E /* expression2.gif */,
+				18EAF1221C7E02FA00EA8F7E /* expression3.gif */,
+				18EAF1231C7E02FA00EA8F7E /* expression4.gif */,
+				18EAF1241C7E02FA00EA8F7E /* expression5.gif */,
+				18B47D551C7DFFE800B13084 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B47D6D1C7DFFE800B13084 /* emojiTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B47D6E1C7DFFE800B13084 /* emojiTestTests.m */,
+				18B47D701C7DFFE800B13084 /* Info.plist */,
+			);
+			path = emojiTestTests;
+			sourceTree = "<group>";
+		};
+		18B47D781C7DFFE800B13084 /* emojiTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B47D791C7DFFE800B13084 /* emojiTestUITests.m */,
+				18B47D7B1C7DFFE800B13084 /* Info.plist */,
+			);
+			path = emojiTestUITests;
+			sourceTree = "<group>";
+		};
+		18EAF12A1C7E82AF00EA8F7E /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				18EAF1401C7F257F00EA8F7E /* UIView+Extension.h */,
+				18EAF1411C7F257F00EA8F7E /* UIView+Extension.m */,
+				18EAF12B1C7E82D600EA8F7E /* GifView.h */,
+				18EAF12C1C7E82D600EA8F7E /* GifView.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		7A825A1DAB89B2E405EE463B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8878D67971BEE490FF8ECEB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B47D501C7DFFE800B13084 /* emojiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B47D7E1C7DFFE800B13084 /* Build configuration list for PBXNativeTarget "emojiTest" */;
+			buildPhases = (
+				EE6A222EDDD8F3EDEF48B835 /* Check Pods Manifest.lock */,
+				18B47D4D1C7DFFE800B13084 /* Sources */,
+				18B47D4E1C7DFFE800B13084 /* Frameworks */,
+				18B47D4F1C7DFFE800B13084 /* Resources */,
+				B327217241DE1384B13AC2A9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emojiTest;
+			productName = emojiTest;
+			productReference = 18B47D511C7DFFE800B13084 /* emojiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B47D691C7DFFE800B13084 /* emojiTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B47D811C7DFFE800B13084 /* Build configuration list for PBXNativeTarget "emojiTestTests" */;
+			buildPhases = (
+				18B47D661C7DFFE800B13084 /* Sources */,
+				18B47D671C7DFFE800B13084 /* Frameworks */,
+				18B47D681C7DFFE800B13084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B47D6C1C7DFFE800B13084 /* PBXTargetDependency */,
+			);
+			name = emojiTestTests;
+			productName = emojiTestTests;
+			productReference = 18B47D6A1C7DFFE800B13084 /* emojiTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B47D741C7DFFE800B13084 /* emojiTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B47D841C7DFFE800B13084 /* Build configuration list for PBXNativeTarget "emojiTestUITests" */;
+			buildPhases = (
+				18B47D711C7DFFE800B13084 /* Sources */,
+				18B47D721C7DFFE800B13084 /* Frameworks */,
+				18B47D731C7DFFE800B13084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B47D771C7DFFE800B13084 /* PBXTargetDependency */,
+			);
+			name = emojiTestUITests;
+			productName = emojiTestUITests;
+			productReference = 18B47D751C7DFFE800B13084 /* emojiTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B47D491C7DFFE800B13084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = eight;
+				TargetAttributes = {
+					18B47D501C7DFFE800B13084 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					18B47D691C7DFFE800B13084 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 18B47D501C7DFFE800B13084;
+					};
+					18B47D741C7DFFE800B13084 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 18B47D501C7DFFE800B13084;
+					};
+				};
+			};
+			buildConfigurationList = 18B47D4C1C7DFFE800B13084 /* Build configuration list for PBXProject "emojiTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B47D481C7DFFE800B13084;
+			productRefGroup = 18B47D521C7DFFE800B13084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B47D501C7DFFE800B13084 /* emojiTest */,
+				18B47D691C7DFFE800B13084 /* emojiTestTests */,
+				18B47D741C7DFFE800B13084 /* emojiTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B47D4F1C7DFFE800B13084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EAF13F1C7F208D00EA8F7E /* expression75.gif in Resources */,
+				18EAF13D1C7F208D00EA8F7E /* expression33.gif in Resources */,
+				18EAF13A1C7F208D00EA8F7E /* expression13.gif in Resources */,
+				18EAF1291C7E02FA00EA8F7E /* expression5.gif in Resources */,
+				18EAF1251C7E02FA00EA8F7E /* expression1.gif in Resources */,
+				18B47D611C7DFFE800B13084 /* Assets.xcassets in Resources */,
+				18EAF13B1C7F208D00EA8F7E /* expression19.gif in Resources */,
+				18EAF1391C7F208D00EA8F7E /* expression6.gif in Resources */,
+				18EAF13E1C7F208D00EA8F7E /* expression65.gif in Resources */,
+				18B47D5F1C7DFFE800B13084 /* Main.storyboard in Resources */,
+				18EAF13C1C7F208D00EA8F7E /* expression27.gif in Resources */,
+				18EAF1271C7E02FA00EA8F7E /* expression3.gif in Resources */,
+				18EAF1261C7E02FA00EA8F7E /* expression2.gif in Resources */,
+				18EAF1281C7E02FA00EA8F7E /* expression4.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B47D681C7DFFE800B13084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B47D731C7DFFE800B13084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B327217241DE1384B13AC2A9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6A222EDDD8F3EDEF48B835 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B47D4D1C7DFFE800B13084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EAF1421C7F257F00EA8F7E /* UIView+Extension.m in Sources */,
+				18B47D5C1C7DFFE800B13084 /* ViewController.m in Sources */,
+				18EAF12D1C7E82D600EA8F7E /* GifView.m in Sources */,
+				18B47D591C7DFFE800B13084 /* AppDelegate.m in Sources */,
+				18B47D561C7DFFE800B13084 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B47D661C7DFFE800B13084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B47D6F1C7DFFE800B13084 /* emojiTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B47D711C7DFFE800B13084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B47D7A1C7DFFE800B13084 /* emojiTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B47D6C1C7DFFE800B13084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B47D501C7DFFE800B13084 /* emojiTest */;
+			targetProxy = 18B47D6B1C7DFFE800B13084 /* PBXContainerItemProxy */;
+		};
+		18B47D771C7DFFE800B13084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B47D501C7DFFE800B13084 /* emojiTest */;
+			targetProxy = 18B47D761C7DFFE800B13084 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B47D5D1C7DFFE800B13084 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B47D5E1C7DFFE800B13084 /* Base */,
+				18EAF1301C7F183A00EA8F7E /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B47D7C1C7DFFE800B13084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18B47D7D1C7DFFE800B13084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B47D7F1C7DFFE800B13084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BC58F33F01A1F3B2666892 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = emojiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eight.aaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B47D801C7DFFE800B13084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFCFCEA9F80163DD681505B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = emojiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eight.aaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18B47D821C7DFFE800B13084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = emojiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.emojiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emojiTest.app/emojiTest";
+			};
+			name = Debug;
+		};
+		18B47D831C7DFFE800B13084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = emojiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.emojiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emojiTest.app/emojiTest";
+			};
+			name = Release;
+		};
+		18B47D851C7DFFE800B13084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = emojiTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.emojiTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = emojiTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18B47D861C7DFFE800B13084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = emojiTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.emojiTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = emojiTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B47D4C1C7DFFE800B13084 /* Build configuration list for PBXProject "emojiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B47D7C1C7DFFE800B13084 /* Debug */,
+				18B47D7D1C7DFFE800B13084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B47D7E1C7DFFE800B13084 /* Build configuration list for PBXNativeTarget "emojiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B47D7F1C7DFFE800B13084 /* Debug */,
+				18B47D801C7DFFE800B13084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B47D811C7DFFE800B13084 /* Build configuration list for PBXNativeTarget "emojiTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B47D821C7DFFE800B13084 /* Debug */,
+				18B47D831C7DFFE800B13084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B47D841C7DFFE800B13084 /* Build configuration list for PBXNativeTarget "emojiTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B47D851C7DFFE800B13084 /* Debug */,
+				18B47D861C7DFFE800B13084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B47D491C7DFFE800B13084 /* Project object */;
+}
